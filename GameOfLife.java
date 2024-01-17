@@ -8,13 +8,13 @@
 public class GameOfLife {
 
 	public static void main(String[] args) {
-		// String fileName = args[0];
+		String fileName = args[0];
 		//// Uncomment the test that you want to execute, and re-compile.
 		//// (Run one test at a time).
 		//// test1("square.dat");
 		//// test2("square.dat");
 		//// test3("line.dat", 3);
-		play("pulsar.dat");
+		play(fileName);
 	}
 	
 	// Reads the data file and prints the initial board.
